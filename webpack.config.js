@@ -1,9 +1,9 @@
 module.exports = {
-    entry: './index.js',
+    entry: './client/index.js',
     mode: 'development',
     output: {
         path: __dirname,
-        filename: 'bundle.js'
+        filename: './public/bundle.js'
     },
     devtool: 'source-maps',
     module: {
