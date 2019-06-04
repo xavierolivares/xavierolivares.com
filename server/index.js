@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use('/api', require('./apiRoutes'));
 
 app.get('*', function (req, res) {
-    res.sendFile(path.join(__dirname, './index.html'))
+    res.sendFile(path.join(__dirname, '/index.html'))
 });
 
 app.use(function (err, req, res, next) {
@@ -27,3 +27,9 @@ app.use(function (err, req, res, next) {
     // may add a fail whale to this error
     // http://www.yiyinglu.com/?portfolio=lifting-a-dreamer-aka-twitter-fail-whale
 });
+
+const port = process.env.PORT || 3000;
+app.listen(port, function() {
+    console.log("Knock knock, open up the door. It's real!")
+    console.log(`Listening on port ${port}`)
+})
