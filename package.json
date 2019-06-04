@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/xavierolivares/xavierolivares.com/issues"
   },
-  "homepage": "https://github.com/xavierolivares/xavierolivares.com#readme"
+  "homepage": "https://github.com/xavierolivares/xavierolivares.com#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7"
+  }
 }
