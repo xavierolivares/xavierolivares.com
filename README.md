@@ -15,3 +15,6 @@ Tier 2:
 Tier 3:
 
 -fancy CSS and FLEXBOX formatting
+
+Takeaways:
+-index.html is a static file and should be in the public folder

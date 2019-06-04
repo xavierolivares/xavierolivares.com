@@ -8,7 +8,7 @@ const bodyParser = require('body-parser')
 app.use(morgan('dev'));
 
 //serving up static assets from server with this middleware
-app.use(express.static(path.join(__dirname, './public')))
+app.use(express.static(path.join(__dirname, '..', 'public')))
 
 //body parsers for possible requests
 app.use(bodyParser.json());
@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use('/api', require('./apiRoutes'));
 
 app.get('*', function (req, res) {
-    res.sendFile(path.join(__dirname, '/index.html'))
+    res.sendFile(path.join(__dirname, '..', 'public/index.html'))
 });
 
 app.use(function (err, req, res, next) {
