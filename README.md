@@ -8,9 +8,10 @@ What I'm learning from building my portfolio website:
 Tier 1:
 
 - Homepage with link to other pages
-- Profile page
+- About page
 - Contact page
 - Portfolio page links to profile pages
+- Blog page
 - Basic Flexbox format structure
 - Basic color scheme
 
