@@ -30,6 +30,7 @@ Tier 4:
 - Mobile friendly
 - Exceptional CSS format (shading? get advice from those with exp)
 - Three projects on portfolio tab
+- SSL Endpoint with Heroku or Netlify? https://devcenter.heroku.com/articles/ssl-endpoint
 
 Tier 5:
 - Five projects on portfolio tab

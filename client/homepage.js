@@ -6,7 +6,7 @@ export class Homepage extends Component {
     render () {
         return <div>
             {/* <Link to='/'>Home</Link> */}
-            <h1>Knock knock, open up the door. It's real.</h1>
+            <h1>X gon give it to ya.</h1>
             </div>
     }
 }
