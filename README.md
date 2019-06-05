@@ -15,7 +15,6 @@ Tier 1:
 - Basic Flexbox format structure
 - Basic color scheme
 
-
 Tier 2:
 - Add tests to check whether site is production ready
 - Link Travis
