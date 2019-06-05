@@ -7,12 +7,13 @@ What I'm learning from building my portfolio website:
 
 Tier 1:
 
-- Basic Flexbox format structure
-- Basic color scheme
 - Homepage with link to other pages
 - Profile page
 - Contact page
 - Portfolio page links to profile pages
+- Basic Flexbox format structure
+- Basic color scheme
+
 
 Tier 2:
 - Add tests to check whether site is production ready

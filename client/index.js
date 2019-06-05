@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Homepage } from './homepage';
 
 ReactDOM.render(
-    <div>X gon give it to ya</div>,
+    <Homepage />,
     document.getElementById('app')
 );
