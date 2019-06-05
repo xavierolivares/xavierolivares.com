@@ -37,3 +37,4 @@ Tier 5:
 Minor takeaways for further review:
 - Index.html is a static file and should be in the public folder
 - Added css file, but not sure if it's being loaded into bundle.js
+- When trying to implement Heroku, I needed to fix my permissions for deploy script. I needed to run bundle.js for heroku. chmod 755 script/deploy (or) chmod +x script/deploy let me bypass the permissions
