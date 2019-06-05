@@ -38,3 +38,6 @@ Minor takeaways for further review:
 - Index.html is a static file and should be in the public folder
 - Added css file, but not sure if it's being loaded into bundle.js
 - When trying to implement Heroku, I needed to fix my permissions for deploy script. I needed to run bundle.js for heroku. chmod 755 script/deploy (or) chmod +x script/deploy let me bypass the permissions
+https://www.youtube.com/watch?v=b_M6FsPMgyY&t=60s
+- Adding a GoDaddy domain to herokuapp https://github.com/IcaliaLabs/guides/wiki/Domain-configuration-using-Heroku-&-GoDaddy
+- SSL Certification with Heroku is $7 a month. Looking into Netlify and DigitalOcean
