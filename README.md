@@ -18,3 +18,4 @@ Tier 3:
 
 Takeaways:
 -index.html is a static file and should be in the public folder
+-added css file, but not sure if it's being loaded into bundle.js
