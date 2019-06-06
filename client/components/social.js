@@ -5,11 +5,7 @@ import { SocialIcon } from 'react-social-icons'
 export class Social extends Component {
     render () {
         return <div id='sociallinks'>
-            {/* <Link className='wrap' to="/https://www.linkedin.com/in/xavierolivaresb/">LinkedIn</Link>
-            <Link className='wrap' to="/Twitter">Twitter</Link>
-            <Link className='wrap' to="/Github">Github</Link>
-            <Link className='wrap' to="/Medium">Medium</Link>
-            <Link className='wrap' to="/StackOverflow">StackOverflow</Link> */}
+            {/* <Link className='wrap' to="/StackOverflow">StackOverflow</Link> */}
             <SocialIcon className='wrap' target="_blank" url='https://www.linkedin.com/in/xavierolivaresb/' network='linkedin' />
             <SocialIcon className='wrap' target="_blank" url='https://twitter.com/xavierolivaresb' network='twitter' />
             <SocialIcon className='wrap' target="_blank" url='https://medium.com/@xavierolivares' network='medium' />
