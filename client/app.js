@@ -14,8 +14,8 @@ export class App extends Component {
         return <div>
             {/* <Link to='/'>Home</Link> */}
             <NavBar />
-            <Redirect from='/' exact to='/home' />
-            <Route path='/home' component={Home} />
+            {/* <Redirect from='/' exact to='/home' /> */}
+            <Route exact path='/home' component={Home} />
             <Route exact path='/profile' component={Profile} />
             <Route exact path='/portfolio' component={Portfolio} />
             <Route exact path='/contact' component={Contact} />

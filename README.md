@@ -44,3 +44,4 @@ https://www.youtube.com/watch?v=b_M6FsPMgyY&t=60s
 - SSL Certification with Heroku is $7 a month. Looking into Netlify and DigitalOcean
 - Used Redirect from 'react-router' to handle default '/' to '/home'
 - Not sure how to link images in React. I'm getting a parsing error
+- react-social-icons is a great tool for bypassing image social media links. If I need customization, I will need to look elsewhere. http://jaketrent.github.io/react-social-icons/
