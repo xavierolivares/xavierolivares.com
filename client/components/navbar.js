@@ -7,6 +7,7 @@ export class NavBar extends Component {
             <Link className='link' style={{textDecoration: 'none'}} to="/home">HOME</Link>
             <Link className='link' style={{textDecoration: 'none'}} to="/about">ABOUT</Link>
             <Link className='link' style={{textDecoration: 'none'}} to="/portfolio">PORTFOLIO</Link>
+            <Link className='link' style={{textDecoration: 'none'}} to="/blog">BLOG</Link>
             <Link className='link' style={{textDecoration: 'none'}} to="/contact">CONTACT</Link>
         </div>
     }

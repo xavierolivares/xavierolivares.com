@@ -8,6 +8,7 @@ import {About} from './components/about'
 import {Portfolio} from './components/portfolio'
 import {Contact} from './components/contact'
 import {Home} from './components/home'
+import {Blog} from './components/blog'
 
 export class App extends Component {
     render () {
@@ -20,6 +21,7 @@ export class App extends Component {
                 <Route exact path='/home' component={Home} />
                 <Route exact path='/about' component={About} />
                 <Route exact path='/portfolio' component={Portfolio} />
+                <Route exact path='/blog' component={Blog} />
                 <Route exact path='/contact' component={Contact} />
             </div>
             <div id='socialstruc'>
