@@ -1,22 +1,13 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
-import { Social } from './social';
 
 export class NavBar extends Component {
     render () {
         return <div id='navbar'>
-            <div id='x'>
-            <Link to="/home">X</Link>
-            </div>
-            <div id='navlinks'>
-            <Link className='wrap' to="/home">Home</Link>
-            <Link className='wrap' to="/about">About</Link>
-            <Link className='wrap' to="/portfolio">Portfolio</Link>
-            <Link className='wrap' to="/contact">Contact</Link>
-            </div>
-            <div id='social'>
-                <Social />
-            </div>
+            <Link style={{textDecoration: 'none'}} to="/home">Home</Link>
+            <Link style={{textDecoration: 'none'}} to="/about">About</Link>
+            <Link style={{textDecoration: 'none'}} to="/portfolio">Portfolio</Link>
+            <Link style={{textDecoration: 'none'}} to="/contact">Contact</Link>
         </div>
     }
 }
