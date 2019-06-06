@@ -58,7 +58,7 @@ html {
 } */
 
 #home {
-    /* display: flex; */
+    flex-flow: row wrap;
     align-self: center;
     justify-content: center;
 }
