@@ -43,3 +43,4 @@ https://www.youtube.com/watch?v=b_M6FsPMgyY&t=60s
 - Adding a GoDaddy domain to herokuapp https://github.com/IcaliaLabs/guides/wiki/Domain-configuration-using-Heroku-&-GoDaddy
 - SSL Certification with Heroku is $7 a month. Looking into Netlify and DigitalOcean
 - Used Redirect from 'react-router' to handle default '/' to '/home'
+- Not sure how to link images in React. I'm getting a parsing error
