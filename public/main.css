@@ -5,3 +5,23 @@ h1 {
 html {
     background-color: teal
 }
+
+#navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between
+}
+
+#x {
+    display: flex
+}
+
+#navlinks {
+    display: flex;
+    /* justify-content: flex-start; */
+}
+
+#social {
+    display: flex;
+    /* justify-content: flex-end; */
+}

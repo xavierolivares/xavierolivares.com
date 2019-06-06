@@ -1,13 +1,13 @@
 import React, {Component}
 from 'react'
 import {Link} from 'react-router-dom'
+import {Route} from 'react-router-dom'
 
-export class Homepage extends Component {
+export class Home extends Component {
     render () {
-        return <div>
+        return <div id='home'>
             {/* <Link to='/'>Home</Link> */}
-            <h1>X gon give it to ya.</h1>
+            <h1>X gon give it to me.</h1>
             </div>
     }
 }
-
