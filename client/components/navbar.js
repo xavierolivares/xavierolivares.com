@@ -4,10 +4,10 @@ import {Link} from 'react-router-dom'
 export class NavBar extends Component {
     render () {
         return <div id='navbar'>
-            <Link style={{textDecoration: 'none'}} to="/home">Home</Link>
-            <Link style={{textDecoration: 'none'}} to="/about">About</Link>
-            <Link style={{textDecoration: 'none'}} to="/portfolio">Portfolio</Link>
-            <Link style={{textDecoration: 'none'}} to="/contact">Contact</Link>
+            <Link className='link' style={{textDecoration: 'none'}} to="/home">HOME</Link>
+            <Link className='link' style={{textDecoration: 'none'}} to="/about">ABOUT</Link>
+            <Link className='link' style={{textDecoration: 'none'}} to="/portfolio">PORTFOLIO</Link>
+            <Link className='link' style={{textDecoration: 'none'}} to="/contact">CONTACT</Link>
         </div>
     }
 }
