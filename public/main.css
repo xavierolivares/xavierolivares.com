@@ -3,23 +3,41 @@ h1 {
 }
 
 html {
-    background-color: white
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#main {
+    flex-flow: column;
+    justify-content: center
+}
+
+#navstruc {
+    justify-items: center;
+}
+
+#contentstruc {
+    justify-items: center;
 }
 
 #navbar {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between
+    justify-content: space-between;
+    font-family: 'Arial Black', Gadget, sans-serif;
 }
 
 #x {
-    display: flex
+    display: flex;
+    align-self: center;
+    justify-content: center;
 }
 
 #navlinks {
     display: flex;
     flex-flow: row wrap;
-    /* justify-content: flex-start; */
+    align-self: center;
+    justify-content: center;
 }
 
 #social {
@@ -31,4 +49,10 @@ html {
 #sociallinks {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
 }
+
+/* .wrap {
+    display: flex;
+    justify-content: space-between;
+} */

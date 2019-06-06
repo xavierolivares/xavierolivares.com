@@ -11,14 +11,18 @@ import {Home} from './components/home'
 
 export class App extends Component {
     render () {
-        return <div>
+        return <div id='main'>
             {/* <Link to='/'>Home</Link> */}
-            <NavBar />
-            <Redirect from='/' exact to='/home' />
-            <Route exact path='/home' component={Home} />
-            <Route exact path='/about' component={About} />
-            <Route exact path='/portfolio' component={Portfolio} />
-            <Route exact path='/contact' component={Contact} />
+            <div id='navstruc'>
+                <NavBar />
+            </div>
+            <div id='contentstruc'>
+                <Redirect from='/' exact to='/home' />
+                <Route exact path='/home' component={Home} />
+                <Route exact path='/about' component={About} />
+                <Route exact path='/portfolio' component={Portfolio} />
+                <Route exact path='/contact' component={Contact} />
+            </div>
             </div>
     }
 }
