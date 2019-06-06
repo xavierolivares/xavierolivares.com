@@ -9,10 +9,10 @@ export class NavBar extends Component {
             <Link to="/home">X</Link>
             </div>
             <div id='navlinks'>
-            <Link to="/home">Home</Link>
-            <Link to="/profile">Profile</Link>
-            <Link to="/portfolio">Portfolio</Link>
-            <Link to="/contact">Contact</Link>
+            <Link className='wrap' to="/home">Home</Link>
+            <Link className='wrap' to="/profile">Profile</Link>
+            <Link className='wrap' to="/portfolio">Portfolio</Link>
+            <Link className='wrap' to="/contact">Contact</Link>
             </div>
             <div id='social'>
                 <Social />

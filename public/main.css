@@ -18,10 +18,17 @@ html {
 
 #navlinks {
     display: flex;
+    flex-flow: row wrap;
     /* justify-content: flex-start; */
 }
 
 #social {
     display: flex;
+    flex-flow: row wrap;
     /* justify-content: flex-end; */
+}
+
+#sociallinks {
+    display: flex;
+    flex-flow: row wrap;
 }
