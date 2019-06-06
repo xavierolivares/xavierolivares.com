@@ -5,7 +5,7 @@ import {Route} from 'react-router-dom'
 
 export class About extends Component {
     render () {
-        return <div>
+        return <div id='about'>
             <h1>work in about me</h1>
             </div>
     }

@@ -1,5 +1,5 @@
 h1 {
-    color: grey;
+    color: maroon;
 }
 
 html {
@@ -14,10 +14,13 @@ html {
 
 #navstruc {
     justify-items: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
 }
 
 #contentstruc {
     justify-content: center;
+    padding-bottom: 30px;
 }
 
 #socialstruc {
@@ -32,6 +35,27 @@ html {
 }
 
 #home {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#about {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#portfolio {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#contact {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
