@@ -3,11 +3,10 @@ from 'react'
 import {Link} from 'react-router-dom'
 import {Route} from 'react-router-dom'
 
-export class Profile extends Component {
+export class About extends Component {
     render () {
         return <div>
-            {/* <Link to='/'>Home</Link> */}
-            <h1>work in profile</h1>
+            <h1>work in about me</h1>
             </div>
     }
 }

@@ -7,7 +7,7 @@ What I'm learning from building my portfolio website:
 
 Tier 1:
 
-- Homepage with link to other pages
+- Homepage with link to other pages 
 - About page
 - Contact page
 - Portfolio page links to profile pages

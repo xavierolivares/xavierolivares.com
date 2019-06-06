@@ -10,7 +10,7 @@ export class NavBar extends Component {
             </div>
             <div id='navlinks'>
             <Link className='wrap' to="/home">Home</Link>
-            <Link className='wrap' to="/profile">Profile</Link>
+            <Link className='wrap' to="/about">About</Link>
             <Link className='wrap' to="/portfolio">Portfolio</Link>
             <Link className='wrap' to="/contact">Contact</Link>
             </div>

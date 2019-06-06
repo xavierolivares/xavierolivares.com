@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import {Link} from 'react-router-dom'
 import { SocialIcon } from 'react-social-icons'
 
 export class Social extends Component {
