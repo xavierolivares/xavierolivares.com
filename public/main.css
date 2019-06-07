@@ -5,10 +5,26 @@ html {
 
 .link {
     color: teal;
+    animation-name: change;
+    animation-duration: 4s;
+}
+
+@keyframes change {
+    from {color: white;}
+    to {color: teal;}
+}
+
+@keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.1);}
+    100% {transform: scale(1);}
 }
 
 h1 {
     color: teal;
+    animation-name: pulse;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite
 }
 
 #main {

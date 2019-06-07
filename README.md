@@ -48,3 +48,4 @@ https://www.youtube.com/watch?v=b_M6FsPMgyY&t=60s
 - react-social-icons is a great tool for bypassing image social media links. If I need customization, I will need to look elsewhere. http://jaketrent.github.io/react-social-icons/
 - do i need a home page? or do i need x?
 - flexbox styling just requires sound structure. break things down into parent and child relationships.
+- css animations are the bomb! https://codepen.io/levineuland/pen/AmwCL
