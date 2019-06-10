@@ -15,17 +15,21 @@ Tier 1:
 - Contact page
 - Basic Flexbox format structure
 - Basic color scheme
-
-Tier 2:
-
-- Add tests to check whether site is production ready
-- Link Travis
 - Deployed to Heroku
 - Link GoDaddy URL to Heroku
 
+Tier 2:
+
+- Add static content to each page
+- About page has a picture and small about me
+- Portfolio page has a link to Greenhousely
+- Blog page: Is there a way to dynamically load medium posts? in Blog?
+- Contact page has an email button
+
 Tier 3:
 
-- Is there a way to dynamically load medium posts?
+- Add tests to check whether site is production ready
+- Link Travis
 - Hover changeable font, like: https://jacekjeznach.com/
 
 Tier 4:

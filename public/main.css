@@ -76,9 +76,27 @@ h1 {
 
 #about {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: space-evenly;
   align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#about > img {
+  border-radius: 50%;
+  flex: 1;
+  max-width: 200px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+}
+#about > p {
+  flex: 1;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: darkcyan;
+  text-align: center;
 }
 
 #portfolio {
