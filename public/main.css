@@ -50,6 +50,8 @@ h1 {
 }
 
 #contentstruc {
+  padding-top: 15px;
+  padding-bottom: 15px;
   justify-content: center;
   border-bottom: 1px groove teal;
 }
@@ -79,8 +81,6 @@ h1 {
   flex-flow: column wrap;
   justify-content: space-evenly;
   align-items: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 #about > img {
@@ -116,8 +116,9 @@ h1 {
 #contact {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  text-align: center;
 }
 
 #sociallinks {
