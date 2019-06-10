@@ -8,15 +8,15 @@ export class NavBar extends Component {
         <Link className="link" style={{ textDecoration: "none" }} to="/home">
           HOME
         </Link>
-        <Link className="link" style={{ textDecoration: "none" }} to="/about">
+        {/* <Link className="link" style={{ textDecoration: "none" }} to="/about">
           ABOUT
-        </Link>
+        </Link> */}
         <Link
           className="link"
           style={{ textDecoration: "none" }}
-          to="/portfolio"
+          to="/work"
         >
-          PORTFOLIO
+          WORK
         </Link>
         <Link className="link" style={{ textDecoration: "none" }} to="/blog">
           BLOG

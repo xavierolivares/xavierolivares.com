@@ -97,9 +97,10 @@ h1 {
   margin-right: 25%;
   color: darkcyan;
   text-align: center;
+  font-weight: bold;
 }
 
-#portfolio {
+#work {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
@@ -119,6 +120,8 @@ h1 {
   justify-content: space-around;
   align-items: center;
   text-align: center;
+  margin-left: 33%;
+  margin-right: 33%;
 }
 
 #sociallinks {
