@@ -5,7 +5,8 @@ export class Contact extends Component {
   render() {
     return (
       <div id="contact">
-        <h1>Email me! </h1>
+        {/* <h1>Email me! </h1> */}
+        <p>Send me an email!</p>
         <SocialIcon
             target="_blank"
             url="mailto:xm.olivares@gmail.com"
