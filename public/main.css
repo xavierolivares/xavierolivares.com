@@ -103,8 +103,17 @@ h1 {
 #work {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+}
+
+#work > a {
+  align-items: center;
+  text-decoration-color: teal;
+  justify-items: center;
+  color: teal;
+  font-weight: bold;
+  /* text-decoration: none; */
 }
 
 #blog {
