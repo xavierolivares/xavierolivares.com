@@ -6,7 +6,7 @@ export class Contact extends Component {
     return (
       <div id="contact">
         {/* <h1>Email me! </h1> */}
-        <p>Send me an email!</p>
+        <p>Email Me</p>
         <SocialIcon
             target="_blank"
             url="mailto:xm.olivares@gmail.com"
