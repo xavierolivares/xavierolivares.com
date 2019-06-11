@@ -168,6 +168,28 @@ h1 {
   justify-content: space-evenly;
 }
 
+@media screen and (max-width: 2000px) {
+  .width {
+    flex: 0;
+  }
+  .socialicons {
+    display: flex;
+    flex-flow: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  #navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    font-family: "Arial Black", Gadget, sans-serif;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
+
 @media screen and (max-width: 765px) {
   .width {
     flex: 0;
@@ -180,7 +202,18 @@ h1 {
     margin-left: 20%;
     margin-right: 20%;
   }
+  #navbar {
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    font-family: "Arial Black", Gadget, sans-serif;
+    margin-left: 23%;
+    margin-right: 23%;
+  }
 }
+
+
 
 @media screen and (max-width: 500px) {
   .width {
@@ -191,6 +224,15 @@ h1 {
     flex-flow: wrap;
     flex: 1;
     justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  #navbar {
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    font-family: "Arial Black", Gadget, sans-serif;
     margin-left: 10%;
     margin-right: 10%;
   }
