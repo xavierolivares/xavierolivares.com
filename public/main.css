@@ -128,7 +128,7 @@ h1 {
 
 #contact {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: space-around;
   align-items: center;
   text-align: center;
