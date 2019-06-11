@@ -13,36 +13,36 @@ export class Social extends Component {
             target="_blank"
             url="https://www.linkedin.com/in/xavierolivaresb/"
             network="linkedin"
-            bgColor="#008080"
-            fgColor="#FFFFFF"
+            // bgColor="#008080"
+            // fgColor="#000000"
           />
           <SocialIcon
             target="_blank"
             url="https://twitter.com/xavierolivaresb"
             network="twitter"
-            bgColor="#008080"
-            fgColor="#FFFFFF"
+            // bgColor="#008080"
+            // fgColor="#000000"
           />
           <SocialIcon
             target="_blank"
             url="https://medium.com/@xavierolivares"
             network="medium"
-            bgColor="#008080"
-            fgColor="#FFFFFF"
+            // bgColor="#008080"
+            // fgColor="#000000"
           />
           <SocialIcon
             target="_blank"
             url="https://github.com/xavierolivares"
             network="github"
-            bgColor="#008080"
-            fgColor="#FFFFFF"
+            // bgColor="#008080"
+            // fgColor="#000000"
           />
           <SocialIcon
             target="_blank"
             url="https://www.youtube.com/channel/UCVHU4cECOWTduPCSgMY7Z3A?view_as=subscriber"
             network="youtube"
-            bgColor="#008080"
-            fgColor="#FFFFFF"
+            // bgColor="#008080"
+            // fgColor="#000000"
           />
         </div>
         <div className="width"></div>

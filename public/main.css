@@ -46,7 +46,7 @@ h1 {
   justify-items: center;
   padding-top: 15px;
   padding-bottom: 15px;
-  border-bottom: 1px groove teal;
+  border-bottom: 3px inset;
 }
 
 #contentstruc {
@@ -54,7 +54,7 @@ h1 {
   padding-bottom: 15px;
   justify-content: center;
   align-content: center;
-  border-bottom: 1px groove teal;
+  border-bottom: 3px inset;
 }
 
 #socialstruc {
@@ -122,8 +122,8 @@ h1 {
 
 #work .greenhousely {
   flex-shrink: 1;
-  height: 75%;
-  width: 75%;
+  height: 50%;
+  width: 50%;
 }
 
 #blog {
@@ -177,5 +177,21 @@ h1 {
     flex-flow: wrap;
     flex: 1;
     justify-content: space-evenly;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .width {
+    flex: 0;
+  }
+  .socialicons {
+    display: flex;
+    flex-flow: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }

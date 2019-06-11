@@ -11,8 +11,8 @@ export class Contact extends Component {
             target="_blank"
             url="mailto:xm.olivares@gmail.com"
             network="email"
-            bgColor="#008080"
-            fgColor="#FFFFFF"
+            // bgColor="#008080"
+            // fgColor="#000000"
           />
       </div>
     );
