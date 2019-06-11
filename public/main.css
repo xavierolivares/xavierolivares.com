@@ -185,8 +185,8 @@ h1 {
     flex-flow: row wrap;
     justify-content: space-evenly;
     font-family: "Arial Black", Gadget, sans-serif;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 33%;
+    margin-right: 33%;
   }
 }
 
@@ -213,8 +213,6 @@ h1 {
   }
 }
 
-
-
 @media screen and (max-width: 500px) {
   .width {
     flex: 0;
@@ -233,7 +231,7 @@ h1 {
     /* justify-content: center; */
     justify-content: space-evenly;
     font-family: "Arial Black", Gadget, sans-serif;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 12%;
+    margin-right: 12%;
   }
 }
