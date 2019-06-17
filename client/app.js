@@ -21,7 +21,7 @@ export class App extends Component {
           <Route exact path="/home" component={Home} />
           {/* <Route exact path="/about" component={About} /> */}
           <Route exact path="/portfolio" component={Portfolio} />
-          {/* <Route exact path="/blog" component={Blog} /> */}
+          <Route exact path="/blog" component={Blog} />
           {/* <Route exact path="/contact" component={Contact} /> */}
         </div>
         <div id="socialstruc">
