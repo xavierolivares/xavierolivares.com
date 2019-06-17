@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { Contact } from './contact'
 export class Home extends Component {
   constructor() {
     super();
@@ -31,6 +31,7 @@ export class Home extends Component {
           With my background in online sales, I'm specializing in
           JavaScript and I'm always open to new technologies.
         </p>
+        <Contact />
       </div>
     );
   }

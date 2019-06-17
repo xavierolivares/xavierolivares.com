@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export class Work extends Component {
+export class Portfolio extends Component {
   render() {
     return (
       <div id="work">
