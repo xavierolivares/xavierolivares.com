@@ -31,6 +31,7 @@ Tier 3:
 - Add tests to check whether site is production ready
 - Link Travis
 - Hover changeable font, like: https://jacekjeznach.com/
+- Consider Material UI
 
 Tier 4:
 
