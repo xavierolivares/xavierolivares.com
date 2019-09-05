@@ -129,7 +129,7 @@ export class App extends Component {
               <a href="https://twitter.com/xavierolivaresb" target="_blank">Twitter</a>
           </div>
   
-          <p>Copyright &copy 2019 by Xavier Olivares</p>
+          <p>Copyright 2019 by Xavier Olivares</p>
       </div>
   </footer>
   </div>
