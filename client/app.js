@@ -19,7 +19,7 @@ export class App extends Component {
           <img className='profile-img col-narrow' src="http://tny.im/jrl" alt="Xavier Olivares"/>
           <div className='col-wide'>
               <h1>Xavier Olivares</h1>
-              <h2>Coder | Entreprenuer | Community Enthusiast</h2>
+              <h2>Coder | Entrepreneur | Community Enthusiast</h2>
               <p>Coming from eCommerce and starting an online business, my move into software engineering has been nothing short of extraordinary.</p>
               <p>Specializing in Javascript, I aim to create software that will help serve the world in meaningful and everlasting ways.</p>
           </div>
