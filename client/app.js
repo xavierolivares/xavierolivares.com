@@ -33,11 +33,31 @@ export class App extends Component {
       <section className='work'>
           <div className='content-wrap'>
               <h2>Work Experience</h2>
+              <div className='col-narrow'>
+              {/* <!-- Job Details: copy this whole block to add more jobs --> */}
+              <h3>Software Engineer</h3>
+              <p>BounceX soon to be Wunderkind</p>
+              <p>09/2019 - 04/2020</p>
+          </div> 
+              {/* <!-- Add as many paragraphs as you need. -->
+              <!-- <p>Providing online competitive prices for greenhouses using a drop-shipping business model. Built with Shopify. Setup business and tax credentials for sale of goods within the contiguous U.S. Illustrates a start-to-finish approach for a seasonal business containing a complete eCommerce workflow.</p> --> */}
+          <div className='col-wide'>
+              {/* <!-- This list can be deleted if you don't want to use it. --> */}
+              <p>Summary:</p>
+              <ul>
+                <li>Integrated BounceX’s products and API functionality to a multitude of eCommerce stores and publishers.</li>
+                <li>Client onboarding required identifying the structural framework of websites so we could inject our product solution via a script on the DOM.</li>
+                <li>Inspected client-side bugs and developed custom patches based on the structural updates to client websites.</li>
+                <li>Backend work involved testing and building API integrations with Email Service Providers.</li>
+                <li>Implemented safety procedures in test environments that were followed by a rigorous QA process, which was essential for the successful deployment of production-level code.</li>
+              </ul>
+              {/* <!-- end of Job Details block. --> */}
+          </div> 
           <div className='col-narrow'>
               {/* <!-- Job Details: copy this whole block to add more jobs --> */}
               <h3>Founder | Owner</h3>
               <p>Greenhousely</p>
-              <p>03/2017 - 3/2020</p>
+              <p>03/2017 - 03/2020</p>
           </div> 
               {/* <!-- Add as many paragraphs as you need. -->
               <!-- <p>Providing online competitive prices for greenhouses using a drop-shipping business model. Built with Shopify. Setup business and tax credentials for sale of goods within the contiguous U.S. Illustrates a start-to-finish approach for a seasonal business containing a complete eCommerce workflow.</p> --> */}
