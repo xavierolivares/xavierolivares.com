@@ -19,9 +19,10 @@ export class App extends Component {
           <img className='profile-img col-narrow' src="http://tny.im/jrl" alt="Xavier Olivares"/>
           <div className='col-wide'>
               <h1>Xavier Olivares</h1>
-              <h2>Coder | Entrepreneur | Community Enthusiast</h2>
-              <p>Coming from eCommerce and starting an online business, my move into software engineering has been nothing short of extraordinary.</p>
-              <p>Specializing in Javascript, I aim to create software that will help serve the world in meaningful and everlasting ways.</p>
+              <h2>Software Engineer | Volunteer Teacher | Community Enthusiast</h2>
+              <p>Seeking software engineer opportunities! While my background is in eCommerce sales and entrepreneurship, my most recent work included developing software solutions for a multitude of eCommerce clients and content publishers.</p>
+              <p>Proficient: JavaScript, jQuery, PHP, Node/Express, React, Redux, Git, Github, Gitlab, CI/CD, HTML, CSS</p>
+              <p>Knowledgeable: Heroku, Travis, Postgres, Sequelize, Postman, ESP Integrations (authentication, posting via XML/JSON), Error Handling.</p>
           </div>
       </div>
   </header>
