@@ -37,7 +37,7 @@ export class App extends Component {
               {/* <!-- Job Details: copy this whole block to add more jobs --> */}
               <h3>Founder | Owner</h3>
               <p>Greenhousely</p>
-              <p>03/2017 - Present</p>
+              <p>03/2017 - 3/2020</p>
           </div> 
               {/* <!-- Add as many paragraphs as you need. -->
               <!-- <p>Providing online competitive prices for greenhouses using a drop-shipping business model. Built with Shopify. Setup business and tax credentials for sale of goods within the contiguous U.S. Illustrates a start-to-finish approach for a seasonal business containing a complete eCommerce workflow.</p> --> */}
@@ -119,7 +119,7 @@ export class App extends Component {
   {/* <!-- // Footer & contact info --> */}
   <footer>
       <div className="content-wrap">
-          <h2>Let's Keep in Touch!</h2>
+          <h2>Keep in Touch!</h2>
           
           {/* <!-- Social media and contact links. Add or remove any networks. --> */}
           <div className='contactinfo'>
@@ -127,11 +127,8 @@ export class App extends Component {
               {/* <!-- <a href="http://xavierolivares.com" target="_blank">xavierolivares.com</a> --> */}
               <a href="https://www.linkedin.com/in/xavierolivaresb/" target="_blank">LinkedIn</a>
               <a href="https://github.com/xavierolivares" target="_blank">Github</a>
-              <a href="https://twitter.com/xavierolivaresb" target="_blank">Twitter</a>
           </div>
-  
-          <p>Copyright 2019 by Xavier Olivares</p>
-      </div>
+        </div>
   </footer>
   </div>
     );
